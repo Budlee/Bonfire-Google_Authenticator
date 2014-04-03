@@ -8,7 +8,7 @@ $fieldData = array(
 );
 ?>
 <section id="profile">
-    <h1 class="page-header"><?php echo lang('us_add_google_authentication_to_account'); ?></h1>
+    <h1 class="page-header"><?php echo lang('us_remove_google_authentication_from_account'); ?></h1>
     <?php if ($validation_errors) : ?>
         <div class="alert alert-error">
             <?php echo $validation_errors; ?>

@@ -216,6 +216,7 @@ $lang['us_google_authentication_login']			= 'Google Authentication code';
 $lang['us_google_authentication_verify']			= 'Verify';
 $lang['us_google_authentication_remove']			= 'Remove';
 $lang['us_add_google_authentication_to_account']			= 'Add Google Authentication to account';
+$lang['us_remove_google_authentication_from_account']			= 'Remove Google Authentication from account';
 $lang['us_google_auth_instruction_1']			= 'In order to enable Two Step Authentication, you will need a smartphone with the Google Authenticator app.';
 $lang['us_google_auth_instruction_2']			= 'Please choose your type of smartphone to get the app:';
 $lang['us_google_auth_instruction_3']			= 'Once downloaded follow these steps on your device:';
