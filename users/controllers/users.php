@@ -840,7 +840,7 @@ class Users extends Front_Controller
                 $this->form_validation->set_rules('ga_code', 'lang:us_google_auth_verify', 'required|min_length[6]|max_length[6]|integer|numeric|is_natural');
                 if ($this->form_validation->run())
 		{
-                    if($this->g_auth->verify_key($this->current_user->ga_salt, $this->input->post('ga_code')))
+                    if($this->g_auth->verify_key($this->current_user->ga_seed, $this->input->post('ga_code')))
                     {
                         if($this->user_model->set_google_auth_enabled($this->current_user->id, FALSE) == TRUE)
                         {
