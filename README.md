@@ -1,4 +1,4 @@
-Bonfire-Google_Authenticator
+Bonfire-Google_Authenticator-DEV
 ============================
 
 A module the replace the user module that allows 2-step verification with Google Authenticator
